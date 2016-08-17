@@ -55,30 +55,28 @@ body {
 }
 h1{
   color:white;
-  font-size: 40px;
+  font: 40px "Open Sans", sans-serif;
   font-weight: 700;
-  font-family: Open sans;
   padding: 20px 60px 20px 80px;
 }
 h2{
   color:white;
-  font-size:40px;
+  font:40px "Open Sans", sans-serif;
   text-align: center;
   font-weight: 100;
-  font-family: Open sans;
   margin:80px;
 }
 #benefits{
   background-color: #f0efef;
-  height:600px;
+  height: 600px;
 }
 #benefits h1{
   color: #121212;
-  font-family: Open sans;
+  font-family: "Open sans";
 }
 #comments{
   height: 500px;
-  text-align: center;
+  text-align:center;
   font-size: 40px;
   color: white;
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
@@ -95,8 +93,7 @@ h2{
     display: inline-block;
     color: white;
     text-align: center;
-    font-size: 30px;
-    font-family: Open sans;
+    font: 30px "Open Sans", sans-serif;
     padding: 8px 40px 8px 40px;
     margin-left: 600px;
     margin-top: 30px;
@@ -115,10 +112,8 @@ h2{
   background-color: yellow;
   border-radius: 2px;
   display: inline-block;
-  font-size: 30px;
-  font-family: Open sans;
+  font: bold 30px "Open Sans", sans-serif;
   float: none;
-  font-weight: bold;
   padding:8px 40px 8px 40px;
   margin-left: 600px;
 }
@@ -127,9 +122,8 @@ h2{
 }
 p{
   padding: 20px 20px 20px 100px;
-  font-family: Open sans;
+  font: 30px "Open sans", sans-serif;
   color: #606161;
-  font-size: 30px;
 }
 li{
   font-size: 20px;
@@ -138,11 +132,9 @@ li{
 }
 #comments p{
   display: block;
+  font: italic lighter 40px "Open Sans", sans-serif;
   margin: 600px 8px 8px 80px;
-  font-size: 40px;
-  font-style: italic;
   color:white;
-  font-weight: lighter;
 }
 /******************************************
 /* LAYOUT
@@ -151,7 +143,7 @@ li{
 /* Center the container */
 #container {
   width: 100%;
-  margin: auto;
+  margin: auto;;
   height: 500px;
 
 }
